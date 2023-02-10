@@ -7,7 +7,7 @@ import HeaderCart from "./HeaderCartButton"
     return <Fragment>
         <header className={clases.header}>
           <h1>meal</h1>
-          <HeaderCart></HeaderCart>
+          <HeaderCart onclick={props.onshow}></HeaderCart>
         </header>
         <div className={clases["main-image"]}>
             <img src={mealsimage} alt="imagde"/>
